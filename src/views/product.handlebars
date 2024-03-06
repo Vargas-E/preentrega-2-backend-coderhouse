@@ -1,0 +1,23 @@
+<div id="individualProductContainer">
+    <div class="individualProductCard">
+        <div class="individualProductTextContainer">
+            <div>{{product.title}}</div>
+            <div>{{product.price}}</div>
+            <div>{{product.category}}</div>
+            <div>{{product.stock}}</div>
+        </div>
+        <div class="individualProductImageContainer"></div>
+        <div class="quantityContainer">
+            <div class="arrowButton"><</div>
+            <div class="quantityCounter">1</div>
+            <div class="arrowButton">></div>
+        </div>
+    </div>
+</div>
+
+<script>
+  let product = {{{jsonStringify product}}};
+</script>
+<script src="js/product.js"></script>
+
+
